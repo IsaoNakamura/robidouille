@@ -22,6 +22,9 @@ int main(int argc, char *argv[ ]){
 	config->bitrate=0;	// zero: leave as default
 	config->framerate=0;
 	config->monochrome=0;
+    config->rotate=0;
+    config->hflip=0;
+    config->vflip=0;
 
 	int opt;
 
